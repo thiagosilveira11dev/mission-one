@@ -1,0 +1,130 @@
+.{  font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #E5E5E5;
+    background-color: #E5E5E5;
+}
+
+#header {
+    background: #1b83e2;
+    width: 423px;
+    height: 76px;
+    left: 0px;
+    top: 0px;
+    color: #F4F4F4;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#caixaPrincipal {
+    background: #E5E5E5;
+    width: 375px;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragrafo {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #777777;
+    line-height: 8px;
+}
+
+#entrada {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 23px;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    ;
+}
+
+.select {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 23px;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#botao {
+    display: block;
+    width: 327px;
+    height: 48px;
+    background: #1b83e2;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 23px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F4F4F4;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#botao:active {
+    opacity: 0.6;
+}
+
+#caixaSecundaria {
+    border: 1px solid #9657A5;
+    background-color: #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caixaMenor {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bandeiras {
+    width: 54px;
+    height: 54px;
+}
+
+#seta {
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 45px;
+}
+
+.pNegrito {
+    font-weight: bold;
+    font-size: 24px;
+    color: #1b83e2;
+    margin-top: 0;
+}

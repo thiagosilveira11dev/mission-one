@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas | R$ | $ | € |</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <h1>DevClub | Conversor de Moedas</h1>
+    </div>
+
+    <div id="caixaPrincipal">
+        <p class="paragrafo">Converter de</p>
+        <select class="select">
+            <option value="Real">R$ - Real Brasileiro</option>
+        </select>
+
+        <p class="paragrafo">Converter para</p>
+        <select class="select" id='currencymoney'>
+            <option value="Dol">US$ - Dólar Americano</option>
+            <option value="Eur">€ - Euro Europeu</option>
+        </select>
+
+        <p class="paragrafo">Valor em reais</p>
+        <input id="entrada" placeholder="R$ 1.000,00">
+
+        <button id='botao'>Converter</button>
+
+        <div id="caixaSecundaria">
+            <div class="caixaMenor">
+                <img id="bandeiras" src=".//img/brasil.svg" alt="brasil">
+                <p class="paragrafo">Real</p>
+                <p class="pNegrito" id="realTextValue">R$ 1.000,00</p>
+            </div>
+
+            <img id="seta" src="./img/seta.svg" alt="seta">
+
+            <div class="caixaMenor">
+                <img id="bandeira" src="./img/eua.svg" alt="eua">
+                <p class="paragrafo" id="currencyName">Dolar Americano</p>
+                <p class="pNegrito" id="currencyValue">U$ 2.000,00</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./script.js"></script>
+
+</html>
